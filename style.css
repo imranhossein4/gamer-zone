@@ -14,6 +14,25 @@ body {
     margin: auto;
 }
 
+.text-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn {
+    border: 0;
+    padding: 13px 30px;
+    background-color: #FF42A5;
+    border-radius: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
 /* navbar style  */
 
 header .navbar {
@@ -71,3 +90,56 @@ header .nav-icon h2 span {
 }
 
 /* navbar style end  */
+
+/* banner section style  */
+
+.banner {
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+
+.banner .banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-container .banner-info {
+    width: 50%;
+}
+
+.banner-container .banner-info h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.banner-container .banner-info h1 {
+    font-size: 5.9rem;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.banner-container .banner-info p {
+    font-size: 20px;
+    color: #534C64;
+}
+
+.banner-container .banner-info i {
+    margin-right: 14px;
+}
+
+.banner-container .banner-info .btn-rogue {
+    background-color: #4EC5F7;
+    margin-left: 30px;
+}
+
+.banner-container .banner-image {
+    width: 50%;
+}
+
+.banner-container .banner-image img {
+    width: 100%;
+}
