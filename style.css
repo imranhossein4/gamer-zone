@@ -176,6 +176,65 @@ header .nav-icon h2 span {
     width: 100%;
 }
 
+/* funny video section end  */
+
+/* play instant section start  */
+
+.play-instant {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+.play-instant .section-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.play-instant .section-info .section-info-text {
+    width: 70%;
+}
+
+.play-instant .section-info h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.play-instant .section-info h2 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instant .section-image {
+    width: 50%;
+    position: relative;
+}
+
+.play-instant .section-image>img {
+    width: 100%;
+}
+
+.play-instant .section-image .badge {
+    width: 318px;
+    height: 365px;
+    position: absolute;
+    bottom: -100px;
+    left: -150px;
+}
+
+
+
+
+
+
+
+
+
 /* responsive for small or mobile device */
 
 @media only screen and (max-width: 576px) {
@@ -227,6 +286,31 @@ header .nav-icon h2 span {
     .funny-video .video-section {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .play-instant {
+        flex-direction: column;
+    }
+
+    .play-instant .section-info {
+        width: 100%;
+    }
+
+    .play-instant .section-info .section-info-text {
+        width: 100%;
+    }
+
+    .play-instant .section-image {
+        width: 100%;
+    }
+
+    .play-instant .section-image .badge {
+        width: auto;
+        height: auto;
+        position: absolute;
+        bottom: -220px;
+        left: inherit;
+        right: 0;
+    }
 }
 
 /* responsive for medium or tablet device */
@@ -264,5 +348,27 @@ header .nav-icon h2 span {
 
     .funny-video .video-section {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .play-instant {
+        flex-direction: column;
+    }
+
+    .play-instant .section-info {
+        width: 100%;
+    }
+
+    .play-instant .section-info .section-info-text {
+        width: 100%;
+    }
+
+    .play-instant .section-image {
+        width: 100%;
+    }
+
+    .play-instant .section-image .badge {
+        width: auto;
+        height: auto;
+        left: inherit;
     }
 }
