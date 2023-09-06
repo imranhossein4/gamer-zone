@@ -144,10 +144,37 @@ header .nav-icon h2 span {
     width: 100%;
 }
 
+/* banner section style end  */
 
+/* funny video section style  */
 
+.funny-video .section-title {
+    text-align: center;
+}
 
+.funny-video .section-title h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
 
+.funny-video .section-title h2 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.funny-video .video-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    margin-top: 2.5rem;
+}
+
+.funny-video .video-section img {
+    width: 100%;
+}
 
 /* responsive for small or mobile device */
 
