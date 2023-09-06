@@ -227,12 +227,112 @@ header .nav-icon h2 span {
     left: -150px;
 }
 
+/* play instant style end  */
+
+/* game collection style start  */
+
+.games-collection {
+    margin-top: 9rem;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    padding: 2rem 0;
+}
+
+.games-collection .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+}
+
+.games-collection .game {
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    border: 1px solid #fff9fc;
+    cursor: pointer;
+}
+
+.games-collection .game p {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 18px;
+}
+
+.games-collection .game:hover {
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+    border-radius: 50px;
+    background-color: #FFF;
+}
+
+.games-collection .game img {
+    width: 60px;
+    height: 60px;
+}
+
+footer {
+    background-color: #0B0223;
+    color: #FFF;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+footer .footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-icon img {
+    width: 86.041px;
+    height: 40px;
+}
+
+footer .footer-icon h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 15px;
+}
+
+footer .footer-icon h2 span {
+    color: #FF42A5;
+}
+
+footer .footer-menu li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 2rem;
+    margin-top: 2.5rem;
+}
+
+footer .social-icon {
+    margin: 2.5rem 0;
+    font-size: 2rem;
+}
 
 
+footer .social-icon i {
+    margin-left: 30px;
+}
 
+footer .copyright li {
+    list-style: none;
+    display: inline-block;
+    display: inline-block;
+    margin-left: 2rem;
+    margin-top: 2.5rem;
+}
 
+footer .copyright li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+}
 
-
+footer .copyright p {
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: 25px;
+}
 
 
 /* responsive for small or mobile device */
@@ -311,6 +411,21 @@ header .nav-icon h2 span {
         left: inherit;
         right: 0;
     }
+
+    .games-collection {
+        margin-top: 12rem;
+    }
+
+    .games-collection .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    footer .social-icon i {
+        margin-left: 15px;
+    }
+
+
 }
 
 /* responsive for medium or tablet device */
@@ -370,5 +485,9 @@ header .nav-icon h2 span {
         width: auto;
         height: auto;
         left: inherit;
+    }
+
+    .games-collection .container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
