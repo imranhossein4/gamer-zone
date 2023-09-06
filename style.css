@@ -223,6 +223,10 @@ header .nav-icon h2 span {
     .banner-container .banner-image {
         width: 100%;
     }
+
+    .funny-video .video-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 /* responsive for medium or tablet device */
@@ -256,5 +260,9 @@ header .nav-icon h2 span {
 
     .banner-container .banner-image {
         width: 100%;
+    }
+
+    .funny-video .video-section {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
